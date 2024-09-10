@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Access</a>
+                <img></img>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="image1.jpg" alt="Slide 1">
+                <img src="image2.jpg" alt="Slide 2">
+                <img src="image3.jpg" alt="Slide 3">
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Make Government Orders Clear and Understandable</h1>
+            <p>AI-Powered Summaries and Conversational Support for Better Civic Engagement</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+    <section class="features"></section>
+        <div class="container">
+            <div class="feature-header">
+                <h2>Our Features</h2>
+            </div>
+            
+            <div class="feature-list">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i> <!-- Font Awesome icon -->
+                    </div>
+                    <h3>AI-Powered Summarization</h3>
+                    <p>Our advanced AI technology simplifies complex government orders into clear, concise summaries.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i> <!-- Font Awesome icon -->
+                    </div>
+                    <h3>Interactive Chatbot</h3>
+                    <p>Ask questions and get immediate, conversational responses to better understand policies.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i> <!-- Font Awesome icon -->
+                    </div>
+                    <h3>Privacy & Security</h3>
+                    <p>We ensure your data is protected with top-notch security measures and privacy practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features"></section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">Access</a>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@example.com">admin@access.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+91 9876708085</a></p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Access. All rights reserved.</p>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="access-435118"
+      agent-id="3a4ce58c-c274-4d50-ad41-5942373de30a"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+       chat-title="Access GO">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+</body>
+
+</html>
