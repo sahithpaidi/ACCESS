@@ -1,2 +1,2 @@
 # ACCESS
-ACCESS for G.O.
+Many citizens find it challenging to understand complicated government orders. Our project uses Artificial Intelligence (AI) to break down complicated government orders into simple, easy-to-understand summaries. Coupled with a user-friendly chatbot that allows citizens to ask questions and get answers in a conversational way. By bridging the communication gap, and making government more approachable, we hope to empower citizens to take a more active role in their communities. We believe that everyone should be able to understand and engage with the policies that shape their lives. Our goal is to create a more inclusive and efficient governance system that truly serves the people.
